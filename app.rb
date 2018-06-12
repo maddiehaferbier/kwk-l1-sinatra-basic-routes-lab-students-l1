@@ -6,5 +6,11 @@ get '/' do
 end 
 get 'name'do 
   "my name is maddie"
-  
+end
+get '/hometown'
+"my hometown is az"
+end
+get '/favorite-song' do 
+  "my favorite song is saturn"
+end
 end
