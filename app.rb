@@ -1,4 +1,4 @@
-require_relative 'config/environment'
+require_relative 'Sinatra'
 
 class App < Sinatra::Base
-end
+get '/'
