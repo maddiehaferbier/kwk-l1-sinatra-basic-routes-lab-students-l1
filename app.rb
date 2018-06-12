@@ -1,4 +1,6 @@
 require_relative 'Sinatra'
 
 class App < Sinatra::Base
-get '/'
+get '/' do 
+  
+end
